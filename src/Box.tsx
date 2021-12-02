@@ -1,5 +1,5 @@
 import * as React from 'react';
-import classNames from 'classnames';
+import { classNames } from './classnames';
 
 import { BaseProps, ElementRef } from './types';
 
@@ -15,9 +15,6 @@ export const Box: Box = React.forwardRef(
     ref?: ElementRef<E>
   ) => {
     const Component = as || defaultTag;
-    if (React.isValidElement(as)) {
-      console.log(Component);
-    }
 
     return (
       <Component {...restProps} className={classNames(className)} ref={ref}>

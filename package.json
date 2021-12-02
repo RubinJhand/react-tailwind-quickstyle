@@ -1,0 +1,40 @@
+{
+  "name": "react-tailwind-quickstyle",
+  "version": "0.11.0",
+  "description": "A utility function to create styled React components with Tailwind CSS with less boilerplate",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "tailwind",
+    "styled"
+  ],
+  "homepage": "https://github.com/RubinJhand/react-tailwind-quickstyle#readme",
+  "bugs": {
+    "url": "https://github.com/RubinJhand/react-tailwind-quickstyle/issues"
+  },
+  "repository": "github:RubinJhand/react-tailwind-quickstyle",
+  "author": "Rubin Jhand",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "@types/react": "17.0.35",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.19"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.2",
+    "tailwindcss": "^2.2.19"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

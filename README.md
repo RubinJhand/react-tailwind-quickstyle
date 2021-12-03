@@ -32,7 +32,7 @@ Source: [Mamba UI](https://mambaui.com/components/card)
   </div>
 ```
 
-## Requirements
+## Dependencies
 
 React: v17
 
@@ -84,16 +84,9 @@ const Input = base('input', 'w-full');
 const Form = base('form', 'm-5 col-span-3');
 const Container = base('div', 'grid grid-cols-3');
 
-const Login = ()=>{
-
-  return (
-    <Container className='mx-5 my-3'>
-      <Form onSubmit={}>
-      <Input type='text' />
-      </Form>
-    </Container>
-  )
-}
+const Login = () => {
+  return <Container className='mx-5 my-3'>...</Container>;
+};
 ```
 
 The `Container` component is now equivalent to:
@@ -118,7 +111,7 @@ const H2 = base(
 );
 
 const TextWrapper = base(
-  'img',
+  'div',
   'mt-6 mb-2',
   <>
     <Span />
